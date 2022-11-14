@@ -1,0 +1,77 @@
+-- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)
+-- Found geometry_msgs: 4.2.2 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rclcpp: 16.0.1 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_action: 16.0.1 (/opt/ros/humble/share/rclcpp_action/cmake)
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Found std_srvs: 4.2.2 (/opt/ros/humble/share/std_srvs/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/parallels/prog/ros2_4gewinnt/build/vier_gewinnt
+[35m[1mConsolidate compiler generated dependencies of target vier_gewinnt__rosidl_generator_c[0m
+[35m[1mConsolidate compiler generated dependencies of target init[0m
+[  1%] Built target vier_gewinnt__cpp
+[ 11%] Built target vier_gewinnt__rosidl_generator_c
+[ 13%] Built target init
+[ 13%] Built target ament_cmake_python_copy_vier_gewinnt
+[35m[1mConsolidate compiler generated dependencies of target vier_gewinnt__rosidl_typesupport_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target vier_gewinnt__rosidl_typesupport_fastrtps_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target vier_gewinnt__rosidl_typesupport_introspection_c[0m
+[35m[1mConsolidate compiler generated dependencies of target vier_gewinnt__rosidl_typesupport_c[0m
+[ 24%] Built target vier_gewinnt__rosidl_typesupport_cpp
+[ 34%] Built target vier_gewinnt__rosidl_typesupport_introspection_c
+[ 45%] Built target vier_gewinnt__rosidl_typesupport_c
+[ 55%] Built target vier_gewinnt__rosidl_typesupport_fastrtps_cpp
+[35m[1mConsolidate compiler generated dependencies of target vier_gewinnt__rosidl_typesupport_introspection_cpp[0m
+[ 56%] [34m[1mGenerating include/vier_gewinnt/moc_turtle_frame.cpp[0m
+[ 67%] Built target vier_gewinnt__rosidl_typesupport_introspection_cpp
+[35m[1mConsolidate compiler generated dependencies of target vier_gewinnt__rosidl_typesupport_fastrtps_c[0m
+[ 77%] Built target vier_gewinnt__rosidl_typesupport_fastrtps_c
+[ 77%] Built target vier_gewinnt
+[35m[1mConsolidate compiler generated dependencies of target vier_gewinnt_node[0m
+[ 78%] Built target vier_gewinnt__py
+[ 80%] [32mBuilding CXX object CMakeFiles/vier_gewinnt_node.dir/src/turtlesim.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/vier_gewinnt_node.dir/src/turtle.cpp.o[0m
+[35m[1mConsolidate compiler generated dependencies of target vier_gewinnt__rosidl_generator_py[0m
+[01m[K/home/parallels/prog/ros2_4gewinnt/vier_gewinnt/src/turtle.cpp:30:10:[m[K [01;31m[Kfatal error: [m[Kturtlesim/turtle.h: Datei oder Verzeichnis nicht gefunden
+   30 | #include [01;31m[K"turtlesim/turtle.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/vier_gewinnt_node.dir/build.make:94: CMakeFiles/vier_gewinnt_node.dir/src/turtle.cpp.o] Fehler 1
+gmake[2]: *** Auf noch nicht beendete Prozesse wird gewartet …
+[ 90%] Built target vier_gewinnt__rosidl_generator_py
+[35m[1mConsolidate compiler generated dependencies of target vier_gewinnt__rosidl_typesupport_introspection_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target vier_gewinnt__rosidl_typesupport_fastrtps_c__pyext[0m
+[ 92%] Built target vier_gewinnt__rosidl_typesupport_introspection_c__pyext
+[ 94%] Built target vier_gewinnt__rosidl_typesupport_fastrtps_c__pyext
+[35m[1mConsolidate compiler generated dependencies of target vier_gewinnt__rosidl_typesupport_c__pyext[0m
+[ 96%] Built target vier_gewinnt__rosidl_typesupport_c__pyext
+running egg_info
+writing vier_gewinnt.egg-info/PKG-INFO
+writing dependency_links to vier_gewinnt.egg-info/dependency_links.txt
+writing top-level names to vier_gewinnt.egg-info/top_level.txt
+reading manifest file 'vier_gewinnt.egg-info/SOURCES.txt'
+writing manifest file 'vier_gewinnt.egg-info/SOURCES.txt'
+[ 96%] Built target ament_cmake_python_build_vier_gewinnt_egg
+[01m[K/home/parallels/prog/ros2_4gewinnt/vier_gewinnt/src/turtlesim.cpp:34:10:[m[K [01;31m[Kfatal error: [m[Kturtlesim/turtle_frame.h: Datei oder Verzeichnis nicht gefunden
+   34 | #include [01;31m[K"turtlesim/turtle_frame.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/vier_gewinnt_node.dir/build.make:80: CMakeFiles/vier_gewinnt_node.dir/src/turtlesim.cpp.o] Fehler 1
+gmake[1]: *** [CMakeFiles/Makefile2:595: CMakeFiles/vier_gewinnt_node.dir/all] Fehler 2
+gmake: *** [Makefile:146: all] Fehler 2

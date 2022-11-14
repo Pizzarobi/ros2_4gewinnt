@@ -1,0 +1,32 @@
+[  1%] Built target vier_gewinnt__cpp
+[  7%] Built target init
+[ 13%] Built target vier_gewinnt__rosidl_generator_c
+[ 13%] Built target ament_cmake_python_copy_vier_gewinnt
+[ 24%] Built target vier_gewinnt__rosidl_typesupport_introspection_c
+[ 34%] Built target vier_gewinnt__rosidl_typesupport_cpp
+[ 45%] Built target vier_gewinnt__rosidl_typesupport_fastrtps_cpp
+[ 55%] Built target vier_gewinnt__rosidl_typesupport_c
+[35m[1mConsolidate compiler generated dependencies of target vier_gewinnt_node[0m
+[ 66%] Built target vier_gewinnt__rosidl_typesupport_introspection_cpp
+[ 67%] [32mBuilding CXX object CMakeFiles/vier_gewinnt_node.dir/src/turtlesim.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/vier_gewinnt_node.dir/src/turtle.cpp.o[0m
+[ 78%] Built target vier_gewinnt__rosidl_typesupport_fastrtps_c
+[ 78%] Built target vier_gewinnt
+[ 80%] Built target vier_gewinnt__py
+[35m[1mConsolidate compiler generated dependencies of target vier_gewinnt__rosidl_generator_py[0m
+[ 89%] Built target vier_gewinnt__rosidl_generator_py
+[35m[1mConsolidate compiler generated dependencies of target vier_gewinnt__rosidl_typesupport_fastrtps_c__pyext[0m
+[ 91%] Built target vier_gewinnt__rosidl_typesupport_fastrtps_c__pyext
+[35m[1mConsolidate compiler generated dependencies of target vier_gewinnt__rosidl_typesupport_introspection_c__pyext[0m
+running egg_info
+writing vier_gewinnt.egg-info/PKG-INFO
+[ 93%] Built target vier_gewinnt__rosidl_typesupport_introspection_c__pyext
+writing dependency_links to vier_gewinnt.egg-info/dependency_links.txt
+writing top-level names to vier_gewinnt.egg-info/top_level.txt
+reading manifest file 'vier_gewinnt.egg-info/SOURCES.txt'
+writing manifest file 'vier_gewinnt.egg-info/SOURCES.txt'
+[35m[1mConsolidate compiler generated dependencies of target vier_gewinnt__rosidl_typesupport_c__pyext[0m
+[ 95%] Built target vier_gewinnt__rosidl_typesupport_c__pyext
+[ 95%] Built target ament_cmake_python_build_vier_gewinnt_egg
+[ 96%] [32mBuilding CXX object CMakeFiles/vier_gewinnt_node.dir/include/turtlesim/moc_turtle_frame.cpp.o[0m
+[ 97%] [32mBuilding CXX object CMakeFiles/vier_gewinnt_node.dir/src/turtle_frame.cpp.o[0m

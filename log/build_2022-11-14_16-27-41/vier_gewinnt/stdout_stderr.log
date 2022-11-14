@@ -1,0 +1,326 @@
+[  1%] Built target vier_gewinnt__cpp
+[  3%] Built target init
+[  3%] Built target ament_cmake_python_copy_vier_gewinnt
+[ 13%] Built target vier_gewinnt__rosidl_generator_c
+[ 24%] Built target vier_gewinnt__rosidl_typesupport_fastrtps_cpp
+[ 34%] Built target vier_gewinnt__rosidl_typesupport_cpp
+[ 45%] Built target vier_gewinnt__rosidl_typesupport_introspection_cpp
+[ 55%] Built target vier_gewinnt__rosidl_typesupport_introspection_c
+[ 66%] Built target vier_gewinnt__rosidl_typesupport_fastrtps_c
+[ 76%] Built target vier_gewinnt__rosidl_typesupport_c
+[ 77%] [34m[1mGenerating include/vier_gewinnt/moc_turtle_frame.cpp[0m
+[ 77%] Built target vier_gewinnt
+[ 78%] Built target vier_gewinnt__py
+[35m[1mConsolidate compiler generated dependencies of target vier_gewinnt_node[0m
+[ 88%] Built target vier_gewinnt__rosidl_generator_py
+[ 89%] [32mBuilding CXX object CMakeFiles/vier_gewinnt_node.dir/src/turtlesim.cpp.o[0m
+[ 91%] Built target vier_gewinnt__rosidl_typesupport_introspection_c__pyext
+[ 93%] Built target vier_gewinnt__rosidl_typesupport_fastrtps_c__pyext
+[ 94%] [32mBuilding CXX object CMakeFiles/vier_gewinnt_node.dir/src/turtle.cpp.o[0m
+running egg_info
+writing vier_gewinnt.egg-info/PKG-INFO
+writing dependency_links to vier_gewinnt.egg-info/dependency_links.txt
+writing top-level names to vier_gewinnt.egg-info/top_level.txt
+reading manifest file 'vier_gewinnt.egg-info/SOURCES.txt'
+writing manifest file 'vier_gewinnt.egg-info/SOURCES.txt'
+[ 96%] Built target vier_gewinnt__rosidl_typesupport_c__pyext
+[ 97%] [32mBuilding CXX object CMakeFiles/vier_gewinnt_node.dir/src/turtle_frame.cpp.o[0m
+[ 97%] Built target ament_cmake_python_build_vier_gewinnt_egg
+[ 98%] [32mBuilding CXX object CMakeFiles/vier_gewinnt_node.dir/include/vier_gewinnt/moc_turtle_frame.cpp.o[0m
+[100%] [32m[1mLinking CXX executable vier_gewinnt_node[0m
+[100%] Built target vier_gewinnt_node
+-- Install configuration: ""
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/ament_index/resource_index/rosidl_interfaces/vier_gewinnt
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/detail
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/detail/color__type_support.h
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/detail/pose__functions.c
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/detail/pose__functions.h
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/detail/color__struct.h
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/detail/color__functions.c
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/detail/pose__type_support.h
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/detail/pose__struct.h
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/detail/color__functions.h
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/color.h
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/pose.h
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/action
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/action/detail
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/action/detail/rotate_absolute__functions.h
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/action/detail/rotate_absolute__type_support.h
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/action/detail/rotate_absolute__functions.c
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/action/detail/rotate_absolute__struct.h
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/action/rotate_absolute.h
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/teleport_absolute__functions.c
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/spawn__struct.h
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/teleport_absolute__type_support.h
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/teleport_absolute__struct.h
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/kill__functions.h
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/set_pen__type_support.h
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/teleport_relative__struct.h
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/set_pen__struct.h
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/kill__functions.c
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/spawn__type_support.h
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/teleport_absolute__functions.h
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/kill__struct.h
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/teleport_relative__type_support.h
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/set_pen__functions.c
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/teleport_relative__functions.h
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/spawn__functions.c
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/kill__type_support.h
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/set_pen__functions.h
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/spawn__functions.h
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/teleport_relative__functions.c
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/teleport_absolute.h
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/kill.h
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/spawn.h
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/set_pen.h
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/teleport_relative.h
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/environment/library_path.sh
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/environment/library_path.dsv
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/lib/libvier_gewinnt__rosidl_generator_c.so
+-- Set runtime path of "/home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/lib/libvier_gewinnt__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt
+-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg
+-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/detail
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/detail/color__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/detail/pose__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/action
+-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/action/detail
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv
+-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/kill__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/lib/libvier_gewinnt__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/lib/libvier_gewinnt__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt
+-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/pose.hpp
+-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/detail
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/detail/color__traits.hpp
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/detail/pose__struct.hpp
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/detail/color__builder.hpp
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/detail/pose__builder.hpp
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/detail/color__struct.hpp
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/detail/pose__traits.hpp
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/color.hpp
+-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/action
+-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/action/detail
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/action/detail/rotate_absolute__traits.hpp
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/action/detail/rotate_absolute__struct.hpp
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/action/detail/rotate_absolute__builder.hpp
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/action/rotate_absolute.hpp
+-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv
+-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/kill__struct.hpp
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/teleport_absolute__struct.hpp
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/kill__builder.hpp
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/teleport_relative__traits.hpp
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/spawn__traits.hpp
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/set_pen__builder.hpp
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/teleport_absolute__traits.hpp
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/teleport_absolute__builder.hpp
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/spawn__struct.hpp
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/set_pen__struct.hpp
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/kill__traits.hpp
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/set_pen__traits.hpp
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/teleport_relative__struct.hpp
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/teleport_relative__builder.hpp
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/spawn__builder.hpp
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/kill.hpp
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/teleport_absolute.hpp
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/teleport_relative.hpp
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/set_pen.hpp
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/spawn.hpp
+-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt
+-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg
+-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/detail
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/detail/dds_fastrtps
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/action
+-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/action/detail
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/action/detail/dds_fastrtps
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv
+-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/dds_fastrtps
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/lib/libvier_gewinnt__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/lib/libvier_gewinnt__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt
+-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg
+-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/detail
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/detail/pose__type_support.c
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/detail/color__rosidl_typesupport_introspection_c.h
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/detail/color__type_support.c
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/detail/pose__rosidl_typesupport_introspection_c.h
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/action
+-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/action/detail
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/action/detail/rotate_absolute__type_support.c
+-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv
+-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/teleport_relative__type_support.c
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/kill__rosidl_typesupport_introspection_c.h
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/spawn__rosidl_typesupport_introspection_c.h
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/kill__type_support.c
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/set_pen__type_support.c
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/spawn__type_support.c
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/set_pen__rosidl_typesupport_introspection_c.h
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/teleport_absolute__rosidl_typesupport_introspection_c.h
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/teleport_absolute__type_support.c
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/lib/libvier_gewinnt__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/lib/libvier_gewinnt__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/lib/libvier_gewinnt__rosidl_typesupport_c.so
+-- Set runtime path of "/home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/lib/libvier_gewinnt__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt
+-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg
+-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/detail
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/detail/color__type_support.cpp
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/detail/pose__type_support.cpp
+-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/action
+-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/action/detail
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/action/detail/rotate_absolute__type_support.cpp
+-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv
+-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/teleport_absolute__type_support.cpp
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/spawn__type_support.cpp
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/teleport_relative__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/spawn__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/set_pen__type_support.cpp
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/teleport_relative__type_support.cpp
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/set_pen__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/kill__type_support.cpp
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/lib/libvier_gewinnt__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/lib/libvier_gewinnt__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/lib/libvier_gewinnt__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/lib/libvier_gewinnt__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/environment/pythonpath.sh
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/environment/pythonpath.dsv
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt-0.0.0-py3.10.egg-info
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/vier_gewinnt_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/vier_gewinnt_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/libvier_gewinnt__rosidl_generator_py.so
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/msg
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/msg/_color_s.c
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/msg/_color.py
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/msg/_pose.py
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/msg/_pose_s.c
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/msg/__init__.py
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/action
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/action/_rotate_absolute.py
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/action/__init__.py
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/action/_rotate_absolute_s.c
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/_vier_gewinnt_s.ep.rosidl_typesupport_introspection_c.c
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/vier_gewinnt_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/_vier_gewinnt_s.ep.rosidl_typesupport_c.c
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/_vier_gewinnt_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/__init__.py
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/srv
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/srv/_set_pen_s.c
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/srv/_spawn_s.c
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/srv/_set_pen.py
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/srv/_teleport_relative_s.c
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/srv/_kill.py
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/srv/_teleport_absolute.py
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/srv/_teleport_absolute_s.c
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/srv/_spawn.py
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/srv/__init__.py
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/srv/_teleport_relative.py
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/srv/_kill_s.c
+Listing '/home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt'...
+Compiling '/home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/__init__.py'...
+Listing '/home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/action'...
+Compiling '/home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/action/__init__.py'...
+Compiling '/home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/action/_rotate_absolute.py'...
+Listing '/home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/msg'...
+Compiling '/home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/msg/__init__.py'...
+Compiling '/home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/msg/_color.py'...
+Compiling '/home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/msg/_pose.py'...
+Listing '/home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/srv'...
+Compiling '/home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/srv/__init__.py'...
+Compiling '/home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/srv/_kill.py'...
+Compiling '/home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/srv/_set_pen.py'...
+Compiling '/home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/srv/_spawn.py'...
+Compiling '/home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/srv/_teleport_absolute.py'...
+Compiling '/home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/srv/_teleport_relative.py'...
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/vier_gewinnt_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+-- Set runtime path of "/home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/vier_gewinnt_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/vier_gewinnt_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+-- Set runtime path of "/home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/vier_gewinnt_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/vier_gewinnt_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+-- Set runtime path of "/home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/vier_gewinnt_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/lib/libvier_gewinnt__rosidl_generator_py.so
+-- Set runtime path of "/home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/lib/libvier_gewinnt__rosidl_generator_py.so" to ""
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/action/RotateAbsolute.idl
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/msg/Color.idl
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/msg/Pose.idl
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/srv/Kill.idl
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/srv/SetPen.idl
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/srv/Spawn.idl
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/srv/TeleportAbsolute.idl
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/srv/TeleportRelative.idl
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/action/RotateAbsolute.action
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/msg/Color.msg
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/msg/Pose.msg
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/srv/Kill.srv
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/srv/Kill_Request.msg
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/srv/Kill_Response.msg
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/srv/SetPen.srv
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/srv/SetPen_Request.msg
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/srv/SetPen_Response.msg
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/srv/Spawn.srv
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/srv/Spawn_Request.msg
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/srv/Spawn_Response.msg
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/srv/TeleportAbsolute.srv
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/srv/TeleportAbsolute_Request.msg
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/srv/TeleportAbsolute_Response.msg
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/srv/TeleportRelative.srv
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/srv/TeleportRelative_Request.msg
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/srv/TeleportRelative_Response.msg
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/lib/vier_gewinnt/init
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/lib/vier_gewinnt/vier_gewinnt_node
+-- Set runtime path of "/home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/lib/vier_gewinnt/vier_gewinnt_node" to ""
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/images
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/images/ardent.png
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/images/oldImages
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/images/oldImages/bouncy.png
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/images/oldImages/eloquent.png
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/images/oldImages/dashing.png
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/images/oldImages/foxy.png
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/images/oldImages/humble.png
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/images/oldImages/galactic.png
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/images/oldImages/rolling.png
+-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/images/oldImages/crystal.png
+[31mCMake Error at cmake_install.cmake:503 (file):
+  file INSTALL cannot find
+  "/home/parallels/prog/ros2_4gewinnt/vier_gewinnt/launch": No such file or
+  directory.
+
+[0m

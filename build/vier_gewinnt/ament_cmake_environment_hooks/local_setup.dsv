@@ -1,0 +1,4 @@
+source;share/vier_gewinnt/environment/ament_prefix_path.sh
+source;share/vier_gewinnt/environment/library_path.sh
+source;share/vier_gewinnt/environment/path.sh
+source;share/vier_gewinnt/environment/pythonpath.sh

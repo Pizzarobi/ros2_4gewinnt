@@ -1,0 +1,8 @@
+/home/parallels/prog/ros2_4gewinnt/build/vier_gewinnt/rosidl_adapter/vier_gewinnt:action/RotateAbsolute.idl
+/home/parallels/prog/ros2_4gewinnt/build/vier_gewinnt/rosidl_adapter/vier_gewinnt:msg/Color.idl
+/home/parallels/prog/ros2_4gewinnt/build/vier_gewinnt/rosidl_adapter/vier_gewinnt:msg/Pose.idl
+/home/parallels/prog/ros2_4gewinnt/build/vier_gewinnt/rosidl_adapter/vier_gewinnt:srv/Kill.idl
+/home/parallels/prog/ros2_4gewinnt/build/vier_gewinnt/rosidl_adapter/vier_gewinnt:srv/SetPen.idl
+/home/parallels/prog/ros2_4gewinnt/build/vier_gewinnt/rosidl_adapter/vier_gewinnt:srv/Spawn.idl
+/home/parallels/prog/ros2_4gewinnt/build/vier_gewinnt/rosidl_adapter/vier_gewinnt:srv/TeleportAbsolute.idl
+/home/parallels/prog/ros2_4gewinnt/build/vier_gewinnt/rosidl_adapter/vier_gewinnt:srv/TeleportRelative.idl

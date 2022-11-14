@@ -1,0 +1,12 @@
+-I/home/parallels/prog/ros2_4gewinnt/vier_gewinnt/include
+-I/usr/include/aarch64-linux-gnu/qt5
+-I/usr/include/aarch64-linux-gnu/qt5/QtWidgets
+-I/usr/include/aarch64-linux-gnu/qt5/QtGui
+-I/usr/include/aarch64-linux-gnu/qt5/QtCore
+-I/usr/lib/aarch64-linux-gnu/qt5/mkspecs/linux-g++
+-I/home/parallels/prog/ros2_4gewinnt/vier_gewinnt/include
+-I/home/parallels/prog/ros2_4gewinnt
+-DROS_PACKAGE_NAME="vier_gewinnt"
+-o
+/home/parallels/prog/ros2_4gewinnt/build/vier_gewinnt/include/vier_gewinnt/moc_turtle_frame.cpp
+/home/parallels/prog/ros2_4gewinnt/vier_gewinnt/include/vier_gewinnt/turtle_frame.h

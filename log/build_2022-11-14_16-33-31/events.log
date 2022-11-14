@@ -1,0 +1,421 @@
+[0.000000] (-) TimerEvent: {}
+[0.000075] (vier_gewinnt) JobQueued: {'identifier': 'vier_gewinnt', 'dependencies': OrderedDict()}
+[0.000095] (vier_gewinnt) JobStarted: {'identifier': 'vier_gewinnt'}
+[0.005777] (vier_gewinnt) JobProgress: {'identifier': 'vier_gewinnt', 'progress': 'cmake'}
+[0.006269] (vier_gewinnt) JobProgress: {'identifier': 'vier_gewinnt', 'progress': 'build'}
+[0.006294] (vier_gewinnt) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/parallels/prog/ros2_4gewinnt/build/vier_gewinnt', '--', '-j4', '-l4'], 'cwd': '/home/parallels/prog/ros2_4gewinnt/build/vier_gewinnt', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'de_DE:en'), ('USER', 'parallels'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/parallels'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2107'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9218b0845dee7b5b330f5c5563720fc9'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/parallels/prog/ros2_4gewinnt/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'parallels'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'parallels'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu-linux-22-04-desktop:@/tmp/.ICE-unix/2107,unix/ubuntu-linux-22-04-desktop:/tmp/.ICE-unix/2107'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/58761dbc_933b_4135_9346_dc20135c4166'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'de_DE.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.AV9SV1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.414'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '69'), ('AMENT_PREFIX_PATH', '/home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/parallels/prog/ros2_4gewinnt/build/vier_gewinnt'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9218b0845dee7b5b330f5c5563720fc9'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt:/opt/ros/humble')]), 'shell': False}
+[0.052229] (vier_gewinnt) StdoutLine: {'line': b'[  1%] Built target vier_gewinnt__cpp\n'}
+[0.057149] (vier_gewinnt) StdoutLine: {'line': b'[ 11%] Built target vier_gewinnt__rosidl_generator_c\n'}
+[0.059115] (vier_gewinnt) StdoutLine: {'line': b'[ 13%] Built target init\n'}
+[0.064991] (vier_gewinnt) StdoutLine: {'line': b'[ 13%] Built target ament_cmake_python_copy_vier_gewinnt\n'}
+[0.075043] (vier_gewinnt) StdoutLine: {'line': b'[ 24%] Built target vier_gewinnt__rosidl_typesupport_cpp\n'}
+[0.079455] (vier_gewinnt) StdoutLine: {'line': b'[ 34%] Built target vier_gewinnt__rosidl_typesupport_fastrtps_cpp\n'}
+[0.084690] (vier_gewinnt) StdoutLine: {'line': b'[ 49%] Built target vier_gewinnt__rosidl_typesupport_introspection_c\n'}
+[0.084791] (vier_gewinnt) StdoutLine: {'line': b'[ 55%] Built target vier_gewinnt__rosidl_typesupport_c\n'}
+[0.095609] (vier_gewinnt) StdoutLine: {'line': b'[ 66%] Built target vier_gewinnt__rosidl_typesupport_introspection_cpp\n'}
+[0.099521] (-) TimerEvent: {}
+[0.110659] (vier_gewinnt) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/vier_gewinnt_node.dir/src/turtle_frame.cpp.o\x1b[0m\n'}
+[0.118637] (vier_gewinnt) StdoutLine: {'line': b'[ 77%] Built target vier_gewinnt__rosidl_typesupport_fastrtps_c\n'}
+[0.136433] (vier_gewinnt) StdoutLine: {'line': b'[ 77%] Built target vier_gewinnt\n'}
+[0.153780] (vier_gewinnt) StdoutLine: {'line': b'[ 78%] Built target vier_gewinnt__py\n'}
+[0.174713] (vier_gewinnt) StdoutLine: {'line': b'[ 88%] Built target vier_gewinnt__rosidl_generator_py\n'}
+[0.196158] (vier_gewinnt) StdoutLine: {'line': b'[ 90%] Built target vier_gewinnt__rosidl_typesupport_introspection_c__pyext\n'}
+[0.196302] (vier_gewinnt) StdoutLine: {'line': b'[ 92%] Built target vier_gewinnt__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.199625] (-) TimerEvent: {}
+[0.213619] (vier_gewinnt) StdoutLine: {'line': b'[ 94%] Built target vier_gewinnt__rosidl_typesupport_c__pyext\n'}
+[0.216678] (vier_gewinnt) StdoutLine: {'line': b'running egg_info\n'}
+[0.217013] (vier_gewinnt) StdoutLine: {'line': b'writing vier_gewinnt.egg-info/PKG-INFO\n'}
+[0.217170] (vier_gewinnt) StdoutLine: {'line': b'writing dependency_links to vier_gewinnt.egg-info/dependency_links.txt\n'}
+[0.217278] (vier_gewinnt) StdoutLine: {'line': b'writing top-level names to vier_gewinnt.egg-info/top_level.txt\n'}
+[0.218365] (vier_gewinnt) StdoutLine: {'line': b"reading manifest file 'vier_gewinnt.egg-info/SOURCES.txt'\n"}
+[0.218760] (vier_gewinnt) StdoutLine: {'line': b"writing manifest file 'vier_gewinnt.egg-info/SOURCES.txt'\n"}
+[0.236634] (vier_gewinnt) StdoutLine: {'line': b'[ 94%] Built target ament_cmake_python_build_vier_gewinnt_egg\n'}
+[0.299764] (-) TimerEvent: {}
+[0.400236] (-) TimerEvent: {}
+[0.501837] (-) TimerEvent: {}
+[0.602397] (-) TimerEvent: {}
+[0.703361] (-) TimerEvent: {}
+[0.804612] (-) TimerEvent: {}
+[0.906195] (-) TimerEvent: {}
+[1.007314] (-) TimerEvent: {}
+[1.107700] (-) TimerEvent: {}
+[1.208185] (-) TimerEvent: {}
+[1.308781] (-) TimerEvent: {}
+[1.413343] (-) TimerEvent: {}
+[1.515256] (-) TimerEvent: {}
+[1.620537] (-) TimerEvent: {}
+[1.725819] (-) TimerEvent: {}
+[1.827294] (-) TimerEvent: {}
+[1.927721] (-) TimerEvent: {}
+[2.028164] (-) TimerEvent: {}
+[2.133460] (-) TimerEvent: {}
+[2.234864] (-) TimerEvent: {}
+[2.335234] (-) TimerEvent: {}
+[2.435580] (-) TimerEvent: {}
+[2.535984] (-) TimerEvent: {}
+[2.639517] (-) TimerEvent: {}
+[2.743759] (-) TimerEvent: {}
+[2.849029] (-) TimerEvent: {}
+[2.950675] (-) TimerEvent: {}
+[3.050995] (-) TimerEvent: {}
+[3.152135] (-) TimerEvent: {}
+[3.252786] (-) TimerEvent: {}
+[3.353217] (-) TimerEvent: {}
+[3.454078] (-) TimerEvent: {}
+[3.554442] (-) TimerEvent: {}
+[3.659559] (-) TimerEvent: {}
+[3.761336] (-) TimerEvent: {}
+[3.862587] (-) TimerEvent: {}
+[3.963553] (-) TimerEvent: {}
+[4.064010] (-) TimerEvent: {}
+[4.167406] (-) TimerEvent: {}
+[4.269762] (-) TimerEvent: {}
+[4.375046] (-) TimerEvent: {}
+[4.478124] (-) TimerEvent: {}
+[4.578972] (-) TimerEvent: {}
+[4.679796] (-) TimerEvent: {}
+[4.785064] (-) TimerEvent: {}
+[4.888498] (-) TimerEvent: {}
+[4.991218] (-) TimerEvent: {}
+[5.094157] (-) TimerEvent: {}
+[5.194577] (-) TimerEvent: {}
+[5.294967] (-) TimerEvent: {}
+[5.400223] (-) TimerEvent: {}
+[5.502584] (-) TimerEvent: {}
+[5.602852] (-) TimerEvent: {}
+[5.703903] (-) TimerEvent: {}
+[5.804242] (-) TimerEvent: {}
+[5.904622] (-) TimerEvent: {}
+[6.005007] (-) TimerEvent: {}
+[6.106362] (-) TimerEvent: {}
+[6.209242] (-) TimerEvent: {}
+[6.312055] (-) TimerEvent: {}
+[6.325935] (vier_gewinnt) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking CXX executable vier_gewinnt_node\x1b[0m\n'}
+[6.412876] (-) TimerEvent: {}
+[6.513548] (-) TimerEvent: {}
+[6.613857] (-) TimerEvent: {}
+[6.714434] (-) TimerEvent: {}
+[6.815056] (-) TimerEvent: {}
+[6.915949] (-) TimerEvent: {}
+[7.016251] (-) TimerEvent: {}
+[7.118657] (-) TimerEvent: {}
+[7.219937] (-) TimerEvent: {}
+[7.323401] (-) TimerEvent: {}
+[7.423674] (-) TimerEvent: {}
+[7.524133] (-) TimerEvent: {}
+[7.608110] (vier_gewinnt) StdoutLine: {'line': b'[100%] Built target vier_gewinnt_node\n'}
+[7.616815] (vier_gewinnt) CommandEnded: {'returncode': 0}
+[7.624245] (-) TimerEvent: {}
+[7.724759] (-) TimerEvent: {}
+[7.763872] (vier_gewinnt) JobProgress: {'identifier': 'vier_gewinnt', 'progress': 'install'}
+[7.771769] (vier_gewinnt) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/parallels/prog/ros2_4gewinnt/build/vier_gewinnt'], 'cwd': '/home/parallels/prog/ros2_4gewinnt/build/vier_gewinnt', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'de_DE:en'), ('USER', 'parallels'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/parallels'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2107'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9218b0845dee7b5b330f5c5563720fc9'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/parallels/prog/ros2_4gewinnt/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'parallels'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'parallels'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu-linux-22-04-desktop:@/tmp/.ICE-unix/2107,unix/ubuntu-linux-22-04-desktop:/tmp/.ICE-unix/2107'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/58761dbc_933b_4135_9346_dc20135c4166'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'de_DE.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.AV9SV1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.414'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '69'), ('AMENT_PREFIX_PATH', '/home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/parallels/prog/ros2_4gewinnt/build/vier_gewinnt'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9218b0845dee7b5b330f5c5563720fc9'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt:/opt/ros/humble')]), 'shell': False}
+[7.778129] (vier_gewinnt) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.778311] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/ament_index/resource_index/rosidl_interfaces/vier_gewinnt\n'}
+[7.778476] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt\n'}
+[7.778539] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg\n'}
+[7.778802] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/rosidl_generator_c__visibility_control.h\n'}
+[7.778873] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/detail\n'}
+[7.778905] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/detail/color__type_support.h\n'}
+[7.778980] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/detail/pose__functions.c\n'}
+[7.779008] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/detail/pose__functions.h\n'}
+[7.779034] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/detail/color__struct.h\n'}
+[7.779060] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/detail/color__functions.c\n'}
+[7.779085] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/detail/pose__type_support.h\n'}
+[7.779110] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/detail/pose__struct.h\n'}
+[7.779241] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/detail/color__functions.h\n'}
+[7.779293] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/color.h\n'}
+[7.779414] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/pose.h\n'}
+[7.779465] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/action\n'}
+[7.779509] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/action/detail\n'}
+[7.779558] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/action/detail/rotate_absolute__functions.h\n'}
+[7.779599] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/action/detail/rotate_absolute__type_support.h\n'}
+[7.779643] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/action/detail/rotate_absolute__functions.c\n'}
+[7.779775] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/action/detail/rotate_absolute__struct.h\n'}
+[7.779811] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/action/rotate_absolute.h\n'}
+[7.779839] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv\n'}
+[7.779918] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail\n'}
+[7.780027] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/teleport_absolute__functions.c\n'}
+[7.780099] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/spawn__struct.h\n'}
+[7.780134] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/teleport_absolute__type_support.h\n'}
+[7.780161] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/teleport_absolute__struct.h\n'}
+[7.780192] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/kill__functions.h\n'}
+[7.780218] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/set_pen__type_support.h\n'}
+[7.780243] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/teleport_relative__struct.h\n'}
+[7.780268] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/set_pen__struct.h\n'}
+[7.780293] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/kill__functions.c\n'}
+[7.780319] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/spawn__type_support.h\n'}
+[7.780344] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/teleport_absolute__functions.h\n'}
+[7.780369] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/kill__struct.h\n'}
+[7.780395] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/teleport_relative__type_support.h\n'}
+[7.780419] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/set_pen__functions.c\n'}
+[7.780444] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/teleport_relative__functions.h\n'}
+[7.780468] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/spawn__functions.c\n'}
+[7.780493] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/kill__type_support.h\n'}
+[7.780520] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/set_pen__functions.h\n'}
+[7.780545] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/spawn__functions.h\n'}
+[7.780570] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/teleport_relative__functions.c\n'}
+[7.780595] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/teleport_absolute.h\n'}
+[7.780620] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/kill.h\n'}
+[7.780659] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/spawn.h\n'}
+[7.780683] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/set_pen.h\n'}
+[7.780708] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/teleport_relative.h\n'}
+[7.780735] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/environment/library_path.sh\n'}
+[7.780759] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/environment/library_path.dsv\n'}
+[7.780787] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/lib/libvier_gewinnt__rosidl_generator_c.so\n'}
+[7.780812] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt\n'}
+[7.780836] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg\n'}
+[7.780869] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/detail\n'}
+[7.780896] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/detail/color__rosidl_typesupport_fastrtps_c.h\n'}
+[7.780921] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/detail/pose__rosidl_typesupport_fastrtps_c.h\n'}
+[7.780946] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[7.780971] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/action\n'}
+[7.780997] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/action/detail\n'}
+[7.781021] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[7.781047] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv\n'}
+[7.781072] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail\n'}
+[7.781097] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/kill__rosidl_typesupport_fastrtps_c.h\n'}
+[7.781121] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h\n'}
+[7.781145] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h\n'}
+[7.781169] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[7.781193] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h\n'}
+[7.781218] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/lib/libvier_gewinnt__rosidl_typesupport_fastrtps_c.so\n'}
+[7.781242] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt\n'}
+[7.781268] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg\n'}
+[7.781293] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/pose.hpp\n'}
+[7.781317] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/detail\n'}
+[7.781484] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/detail/color__traits.hpp\n'}
+[7.781630] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/detail/pose__struct.hpp\n'}
+[7.781704] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/detail/color__builder.hpp\n'}
+[7.781776] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/detail/pose__builder.hpp\n'}
+[7.781855] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/detail/color__struct.hpp\n'}
+[7.781915] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/detail/pose__traits.hpp\n'}
+[7.781949] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/color.hpp\n'}
+[7.781975] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/action\n'}
+[7.782020] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/action/detail\n'}
+[7.782135] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/action/detail/rotate_absolute__traits.hpp\n'}
+[7.782186] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/action/detail/rotate_absolute__struct.hpp\n'}
+[7.782220] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/action/detail/rotate_absolute__builder.hpp\n'}
+[7.782256] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/action/rotate_absolute.hpp\n'}
+[7.782310] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv\n'}
+[7.782473] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail\n'}
+[7.782521] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/kill__struct.hpp\n'}
+[7.782556] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/teleport_absolute__struct.hpp\n'}
+[7.782676] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/kill__builder.hpp\n'}
+[7.782726] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/teleport_relative__traits.hpp\n'}
+[7.782752] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/spawn__traits.hpp\n'}
+[7.782776] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/set_pen__builder.hpp\n'}
+[7.782878] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/teleport_absolute__traits.hpp\n'}
+[7.782915] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/teleport_absolute__builder.hpp\n'}
+[7.782960] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/spawn__struct.hpp\n'}
+[7.783003] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/set_pen__struct.hpp\n'}
+[7.783030] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/kill__traits.hpp\n'}
+[7.783124] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/set_pen__traits.hpp\n'}
+[7.783171] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/teleport_relative__struct.hpp\n'}
+[7.783236] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/teleport_relative__builder.hpp\n'}
+[7.783276] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/spawn__builder.hpp\n'}
+[7.783309] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/kill.hpp\n'}
+[7.783354] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/teleport_absolute.hpp\n'}
+[7.783393] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/teleport_relative.hpp\n'}
+[7.783423] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/set_pen.hpp\n'}
+[7.783450] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/spawn.hpp\n'}
+[7.783481] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt\n'}
+[7.783507] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg\n'}
+[7.783543] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/detail\n'}
+[7.783634] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/detail/dds_fastrtps\n'}
+[7.783673] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.783773] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.783817] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[7.783851] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/action\n'}
+[7.783930] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/action/detail\n'}
+[7.783964] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/action/detail/dds_fastrtps\n'}
+[7.783989] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.784017] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv\n'}
+[7.784050] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail\n'}
+[7.784075] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/dds_fastrtps\n'}
+[7.784100] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.784125] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.784150] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.784174] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.784198] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.784224] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/lib/libvier_gewinnt__rosidl_typesupport_fastrtps_cpp.so\n'}
+[7.784249] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt\n'}
+[7.784273] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg\n'}
+[7.784297] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/detail\n'}
+[7.784320] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/detail/pose__type_support.c\n'}
+[7.784344] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/detail/color__rosidl_typesupport_introspection_c.h\n'}
+[7.784369] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/detail/color__type_support.c\n'}
+[7.784394] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/detail/pose__rosidl_typesupport_introspection_c.h\n'}
+[7.784418] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[7.784443] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/action\n'}
+[7.784469] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/action/detail\n'}
+[7.784493] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h\n'}
+[7.784518] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/action/detail/rotate_absolute__type_support.c\n'}
+[7.784542] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv\n'}
+[7.784565] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail\n'}
+[7.784589] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/teleport_relative__type_support.c\n'}
+[7.784616] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/kill__rosidl_typesupport_introspection_c.h\n'}
+[7.784641] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h\n'}
+[7.784665] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/spawn__rosidl_typesupport_introspection_c.h\n'}
+[7.784689] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/kill__type_support.c\n'}
+[7.784713] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/set_pen__type_support.c\n'}
+[7.784737] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/spawn__type_support.c\n'}
+[7.784761] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/set_pen__rosidl_typesupport_introspection_c.h\n'}
+[7.784786] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/teleport_absolute__rosidl_typesupport_introspection_c.h\n'}
+[7.784810] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/teleport_absolute__type_support.c\n'}
+[7.784834] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/lib/libvier_gewinnt__rosidl_typesupport_introspection_c.so\n'}
+[7.784857] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/lib/libvier_gewinnt__rosidl_typesupport_c.so\n'}
+[7.784881] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt\n'}
+[7.784907] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg\n'}
+[7.784931] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/detail\n'}
+[7.784955] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.784981] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.785005] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/detail/color__type_support.cpp\n'}
+[7.785028] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/msg/detail/pose__type_support.cpp\n'}
+[7.785052] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/action\n'}
+[7.785076] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/action/detail\n'}
+[7.785100] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.785124] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/action/detail/rotate_absolute__type_support.cpp\n'}
+[7.785148] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv\n'}
+[7.785172] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail\n'}
+[7.785195] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/teleport_absolute__type_support.cpp\n'}
+[7.785219] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/spawn__type_support.cpp\n'}
+[7.785243] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/teleport_relative__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.785267] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/spawn__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.785295] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/set_pen__type_support.cpp\n'}
+[7.785319] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/teleport_relative__type_support.cpp\n'}
+[7.785342] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.785366] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/set_pen__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.785391] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/kill__type_support.cpp\n'}
+[7.785415] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/include/vier_gewinnt/vier_gewinnt/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.785439] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/lib/libvier_gewinnt__rosidl_typesupport_introspection_cpp.so\n'}
+[7.785462] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/lib/libvier_gewinnt__rosidl_typesupport_cpp.so\n'}
+[7.785488] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/environment/pythonpath.sh\n'}
+[7.785512] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/environment/pythonpath.dsv\n'}
+[7.785535] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt-0.0.0-py3.10.egg-info\n'}
+[7.785561] (vier_gewinnt) StdoutLine: {'line': b'-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[7.785585] (vier_gewinnt) StdoutLine: {'line': b'-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[7.785609] (vier_gewinnt) StdoutLine: {'line': b'-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[7.785633] (vier_gewinnt) StdoutLine: {'line': b'-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[7.785656] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt\n'}
+[7.785680] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/vier_gewinnt_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[7.785705] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/vier_gewinnt_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[7.785729] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/libvier_gewinnt__rosidl_generator_py.so\n'}
+[7.785753] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/msg\n'}
+[7.785777] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/msg/_color_s.c\n'}
+[7.785801] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/msg/_color.py\n'}
+[7.785825] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/msg/_pose.py\n'}
+[7.785848] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/msg/_pose_s.c\n'}
+[7.785872] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/msg/__init__.py\n'}
+[7.785896] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/action\n'}
+[7.785920] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/action/_rotate_absolute.py\n'}
+[7.785943] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/action/__init__.py\n'}
+[7.785967] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/action/_rotate_absolute_s.c\n'}
+[7.785997] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/_vier_gewinnt_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[7.786021] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/vier_gewinnt_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[7.786045] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/_vier_gewinnt_s.ep.rosidl_typesupport_c.c\n'}
+[7.786069] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/_vier_gewinnt_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[7.786093] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/__init__.py\n'}
+[7.786117] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/srv\n'}
+[7.786140] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/srv/_set_pen_s.c\n'}
+[7.786164] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/srv/_spawn_s.c\n'}
+[7.786190] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/srv/_set_pen.py\n'}
+[7.786214] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/srv/_teleport_relative_s.c\n'}
+[7.786238] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/srv/_kill.py\n'}
+[7.786262] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/srv/_teleport_absolute.py\n'}
+[7.786286] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/srv/_teleport_absolute_s.c\n'}
+[7.786310] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/srv/_spawn.py\n'}
+[7.786333] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/srv/__init__.py\n'}
+[7.786357] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/srv/_teleport_relative.py\n'}
+[7.786380] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/srv/_kill_s.c\n'}
+[7.801498] (vier_gewinnt) StdoutLine: {'line': b"Listing '/home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt'...\n"}
+[7.801570] (vier_gewinnt) StdoutLine: {'line': b"Listing '/home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/action'...\n"}
+[7.801598] (vier_gewinnt) StdoutLine: {'line': b"Listing '/home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/msg'...\n"}
+[7.801623] (vier_gewinnt) StdoutLine: {'line': b"Listing '/home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/srv'...\n"}
+[7.804453] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/vier_gewinnt_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[7.804598] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/vier_gewinnt_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[7.804754] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/local/lib/python3.10/dist-packages/vier_gewinnt/vier_gewinnt_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[7.804926] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/lib/libvier_gewinnt__rosidl_generator_py.so\n'}
+[7.805042] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/action/RotateAbsolute.idl\n'}
+[7.805149] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/msg/Color.idl\n'}
+[7.805183] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/msg/Pose.idl\n'}
+[7.805228] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/srv/Kill.idl\n'}
+[7.805253] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/srv/SetPen.idl\n'}
+[7.805286] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/srv/Spawn.idl\n'}
+[7.805321] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/srv/TeleportAbsolute.idl\n'}
+[7.805458] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/srv/TeleportRelative.idl\n'}
+[7.805520] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/action/RotateAbsolute.action\n'}
+[7.805555] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/msg/Color.msg\n'}
+[7.805587] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/msg/Pose.msg\n'}
+[7.805632] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/srv/Kill.srv\n'}
+[7.805694] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/srv/Kill_Request.msg\n'}
+[7.805793] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/srv/Kill_Response.msg\n'}
+[7.805835] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/srv/SetPen.srv\n'}
+[7.805868] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/srv/SetPen_Request.msg\n'}
+[7.805904] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/srv/SetPen_Response.msg\n'}
+[7.805998] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/srv/Spawn.srv\n'}
+[7.806027] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/srv/Spawn_Request.msg\n'}
+[7.806056] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/srv/Spawn_Response.msg\n'}
+[7.806091] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/srv/TeleportAbsolute.srv\n'}
+[7.806118] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/srv/TeleportAbsolute_Request.msg\n'}
+[7.806143] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/srv/TeleportAbsolute_Response.msg\n'}
+[7.806168] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/srv/TeleportRelative.srv\n'}
+[7.806192] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/srv/TeleportRelative_Request.msg\n'}
+[7.806216] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/srv/TeleportRelative_Response.msg\n'}
+[7.806241] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/lib/vier_gewinnt/init\n'}
+[7.806274] (vier_gewinnt) StdoutLine: {'line': b'-- Installing: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/lib/vier_gewinnt/vier_gewinnt_node\n'}
+[7.811852] (vier_gewinnt) StdoutLine: {'line': b'-- Set runtime path of "/home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/lib/vier_gewinnt/vier_gewinnt_node" to ""\n'}
+[7.811974] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/images\n'}
+[7.812059] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/images/ardent.png\n'}
+[7.812089] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/images/oldImages\n'}
+[7.812122] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/images/oldImages/bouncy.png\n'}
+[7.812186] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/images/oldImages/eloquent.png\n'}
+[7.812213] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/images/oldImages/dashing.png\n'}
+[7.812251] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/images/oldImages/foxy.png\n'}
+[7.812281] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/images/oldImages/humble.png\n'}
+[7.812327] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/images/oldImages/galactic.png\n'}
+[7.812355] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/images/oldImages/rolling.png\n'}
+[7.812472] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/images/oldImages/crystal.png\n'}
+[7.812516] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/ament_index/resource_index/package_run_dependencies/vier_gewinnt\n'}
+[7.812554] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/ament_index/resource_index/parent_prefix_path/vier_gewinnt\n'}
+[7.812587] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/environment/ament_prefix_path.sh\n'}
+[7.812614] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/environment/ament_prefix_path.dsv\n'}
+[7.812657] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/environment/path.sh\n'}
+[7.812756] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/environment/path.dsv\n'}
+[7.812793] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/local_setup.bash\n'}
+[7.812826] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/local_setup.sh\n'}
+[7.812851] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/local_setup.zsh\n'}
+[7.812932] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/local_setup.dsv\n'}
+[7.812959] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/package.dsv\n'}
+[7.813008] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/ament_index/resource_index/packages/vier_gewinnt\n'}
+[7.813049] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/cmake/export_vier_gewinnt__rosidl_generator_cExport.cmake\n'}
+[7.813082] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/cmake/export_vier_gewinnt__rosidl_generator_cExport-noconfig.cmake\n'}
+[7.813107] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/cmake/export_vier_gewinnt__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[7.813210] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/cmake/export_vier_gewinnt__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[7.813265] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/cmake/export_vier_gewinnt__rosidl_generator_cppExport.cmake\n'}
+[7.813309] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/cmake/export_vier_gewinnt__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[7.813336] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/cmake/export_vier_gewinnt__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[7.813373] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/cmake/vier_gewinnt__rosidl_typesupport_introspection_cExport.cmake\n'}
+[7.813407] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/cmake/vier_gewinnt__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[7.813433] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/cmake/vier_gewinnt__rosidl_typesupport_cExport.cmake\n'}
+[7.813464] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/cmake/vier_gewinnt__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[7.813504] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/cmake/vier_gewinnt__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[7.813538] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/cmake/vier_gewinnt__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[7.813591] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/cmake/vier_gewinnt__rosidl_typesupport_cppExport.cmake\n'}
+[7.813683] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/cmake/vier_gewinnt__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[7.813716] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/cmake/export_vier_gewinnt__rosidl_generator_pyExport.cmake\n'}
+[7.813741] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/cmake/export_vier_gewinnt__rosidl_generator_pyExport-noconfig.cmake\n'}
+[7.813769] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/cmake/rosidl_cmake-extras.cmake\n'}
+[7.813793] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.813818] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.813842] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[7.813870] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[7.813894] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[7.813917] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[7.813941] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/cmake/vier_gewinntConfig.cmake\n'}
+[7.813965] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/cmake/vier_gewinntConfig-version.cmake\n'}
+[7.813988] (vier_gewinnt) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/prog/ros2_4gewinnt/install/vier_gewinnt/share/vier_gewinnt/package.xml\n'}
+[7.815736] (vier_gewinnt) CommandEnded: {'returncode': 0}
+[7.824914] (-) TimerEvent: {}
+[7.925153] (-) TimerEvent: {}
+[7.981060] (vier_gewinnt) JobEnded: {'identifier': 'vier_gewinnt', 'rc': 0}
+[7.981586] (-) EventReactorShutdown: {}

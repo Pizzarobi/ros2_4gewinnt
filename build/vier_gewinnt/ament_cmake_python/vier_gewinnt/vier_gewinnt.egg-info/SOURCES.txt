@@ -1,0 +1,17 @@
+setup.py
+vier_gewinnt/__init__.py
+vier_gewinnt.egg-info/PKG-INFO
+vier_gewinnt.egg-info/SOURCES.txt
+vier_gewinnt.egg-info/dependency_links.txt
+vier_gewinnt.egg-info/top_level.txt
+vier_gewinnt/action/__init__.py
+vier_gewinnt/action/_rotate_absolute.py
+vier_gewinnt/msg/__init__.py
+vier_gewinnt/msg/_color.py
+vier_gewinnt/msg/_pose.py
+vier_gewinnt/srv/__init__.py
+vier_gewinnt/srv/_kill.py
+vier_gewinnt/srv/_set_pen.py
+vier_gewinnt/srv/_spawn.py
+vier_gewinnt/srv/_teleport_absolute.py
+vier_gewinnt/srv/_teleport_relative.py

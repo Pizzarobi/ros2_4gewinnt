@@ -1,0 +1,27 @@
+[  1%] Built target vier_gewinnt__cpp
+[  3%] Built target init
+[  3%] Built target ament_cmake_python_copy_vier_gewinnt
+[ 13%] Built target vier_gewinnt__rosidl_generator_c
+[ 24%] Built target vier_gewinnt__rosidl_typesupport_cpp
+[ 34%] Built target vier_gewinnt__rosidl_typesupport_introspection_cpp
+[ 45%] Built target vier_gewinnt__rosidl_typesupport_fastrtps_cpp
+[ 55%] Built target vier_gewinnt__rosidl_typesupport_fastrtps_c
+[ 66%] Built target vier_gewinnt__rosidl_typesupport_c
+[ 76%] Built target vier_gewinnt__rosidl_typesupport_introspection_c
+[ 77%] [32mBuilding CXX object CMakeFiles/vier_gewinnt_node.dir/src/turtle.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/vier_gewinnt_node.dir/src/turtlesim.cpp.o[0m
+[ 78%] Built target vier_gewinnt
+[ 80%] Built target vier_gewinnt__py
+[ 89%] Built target vier_gewinnt__rosidl_generator_py
+running egg_info
+writing vier_gewinnt.egg-info/PKG-INFO
+writing dependency_links to vier_gewinnt.egg-info/dependency_links.txt
+writing top-level names to vier_gewinnt.egg-info/top_level.txt
+reading manifest file 'vier_gewinnt.egg-info/SOURCES.txt'
+writing manifest file 'vier_gewinnt.egg-info/SOURCES.txt'
+[ 91%] Built target vier_gewinnt__rosidl_typesupport_fastrtps_c__pyext
+[ 91%] Built target ament_cmake_python_build_vier_gewinnt_egg
+[ 93%] Built target vier_gewinnt__rosidl_typesupport_introspection_c__pyext
+[ 94%] [32mBuilding CXX object CMakeFiles/vier_gewinnt_node.dir/src/turtle_frame.cpp.o[0m
+[ 96%] Built target vier_gewinnt__rosidl_typesupport_c__pyext
+[ 97%] [32mBuilding CXX object CMakeFiles/vier_gewinnt_node.dir/include/vier_gewinnt/moc_turtle_frame.cpp.o[0m

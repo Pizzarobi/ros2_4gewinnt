@@ -1,0 +1,4 @@
+source;share/vier_gewinnt/local_setup.bash
+source;share/vier_gewinnt/local_setup.dsv
+source;share/vier_gewinnt/local_setup.sh
+source;share/vier_gewinnt/local_setup.zsh

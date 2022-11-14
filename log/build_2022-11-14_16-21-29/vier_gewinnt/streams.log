@@ -1,0 +1,79 @@
+[0.007s] Invoking command in '/home/parallels/prog/ros2_4gewinnt/build/vier_gewinnt': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/parallels/prog/ros2_4gewinnt/build/vier_gewinnt -- -j4 -l4
+[0.027s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.106s] -- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)
+[0.106s] -- Found geometry_msgs: 4.2.2 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.124s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.126s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.129s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.137s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.147s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.236s] -- Found rclcpp: 16.0.1 (/opt/ros/humble/share/rclcpp/cmake)
+[0.270s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.270s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.348s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.441s] -- Found rclcpp_action: 16.0.1 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.508s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.512s] -- Found std_srvs: 4.2.2 (/opt/ros/humble/share/std_srvs/cmake)
+[0.690s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.868s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.936s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.950s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.963s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.963s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.963s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[0.981s] -- Configuring done
+[1.012s] -- Generating done
+[1.016s] -- Build files have been written to: /home/parallels/prog/ros2_4gewinnt/build/vier_gewinnt
+[1.039s] [35m[1mConsolidate compiler generated dependencies of target vier_gewinnt__rosidl_generator_c[0m
+[1.044s] [35m[1mConsolidate compiler generated dependencies of target init[0m
+[1.046s] [  1%] Built target vier_gewinnt__cpp
+[1.048s] [ 11%] Built target vier_gewinnt__rosidl_generator_c
+[1.053s] [ 13%] Built target init
+[1.054s] [ 13%] Built target ament_cmake_python_copy_vier_gewinnt
+[1.055s] [35m[1mConsolidate compiler generated dependencies of target vier_gewinnt__rosidl_typesupport_cpp[0m
+[1.062s] [35m[1mConsolidate compiler generated dependencies of target vier_gewinnt__rosidl_typesupport_fastrtps_cpp[0m
+[1.062s] [35m[1mConsolidate compiler generated dependencies of target vier_gewinnt__rosidl_typesupport_introspection_c[0m
+[1.065s] [35m[1mConsolidate compiler generated dependencies of target vier_gewinnt__rosidl_typesupport_c[0m
+[1.068s] [ 24%] Built target vier_gewinnt__rosidl_typesupport_cpp
+[1.074s] [ 34%] Built target vier_gewinnt__rosidl_typesupport_introspection_c
+[1.075s] [ 45%] Built target vier_gewinnt__rosidl_typesupport_c
+[1.077s] [ 55%] Built target vier_gewinnt__rosidl_typesupport_fastrtps_cpp
+[1.078s] [35m[1mConsolidate compiler generated dependencies of target vier_gewinnt__rosidl_typesupport_introspection_cpp[0m
+[1.083s] [ 56%] [34m[1mGenerating include/vier_gewinnt/moc_turtle_frame.cpp[0m
+[1.090s] [ 67%] Built target vier_gewinnt__rosidl_typesupport_introspection_cpp
+[1.092s] [35m[1mConsolidate compiler generated dependencies of target vier_gewinnt__rosidl_typesupport_fastrtps_c[0m
+[1.105s] [ 77%] Built target vier_gewinnt__rosidl_typesupport_fastrtps_c
+[1.121s] [ 77%] Built target vier_gewinnt
+[1.123s] [35m[1mConsolidate compiler generated dependencies of target vier_gewinnt_node[0m
+[1.139s] [ 78%] Built target vier_gewinnt__py
+[1.142s] [ 80%] [32mBuilding CXX object CMakeFiles/vier_gewinnt_node.dir/src/turtlesim.cpp.o[0m
+[1.143s] [ 81%] [32mBuilding CXX object CMakeFiles/vier_gewinnt_node.dir/src/turtle.cpp.o[0m
+[1.150s] [35m[1mConsolidate compiler generated dependencies of target vier_gewinnt__rosidl_generator_py[0m
+[1.162s] [01m[K/home/parallels/prog/ros2_4gewinnt/vier_gewinnt/src/turtle.cpp:30:10:[m[K [01;31m[Kfatal error: [m[Kturtlesim/turtle.h: Datei oder Verzeichnis nicht gefunden
+[1.162s]    30 | #include [01;31m[K"turtlesim/turtle.h"[m[K
+[1.162s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[1.162s] compilation terminated.
+[1.163s] gmake[2]: *** [CMakeFiles/vier_gewinnt_node.dir/build.make:94: CMakeFiles/vier_gewinnt_node.dir/src/turtle.cpp.o] Fehler 1
+[1.163s] gmake[2]: *** Auf noch nicht beendete Prozesse wird gewartet …
+[1.163s] [ 90%] Built target vier_gewinnt__rosidl_generator_py
+[1.173s] [35m[1mConsolidate compiler generated dependencies of target vier_gewinnt__rosidl_typesupport_introspection_c__pyext[0m
+[1.174s] [35m[1mConsolidate compiler generated dependencies of target vier_gewinnt__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.182s] [ 92%] Built target vier_gewinnt__rosidl_typesupport_introspection_c__pyext
+[1.184s] [ 94%] Built target vier_gewinnt__rosidl_typesupport_fastrtps_c__pyext
+[1.191s] [35m[1mConsolidate compiler generated dependencies of target vier_gewinnt__rosidl_typesupport_c__pyext[0m
+[1.199s] [ 96%] Built target vier_gewinnt__rosidl_typesupport_c__pyext
+[1.199s] running egg_info
+[1.200s] writing vier_gewinnt.egg-info/PKG-INFO
+[1.200s] writing dependency_links to vier_gewinnt.egg-info/dependency_links.txt
+[1.200s] writing top-level names to vier_gewinnt.egg-info/top_level.txt
+[1.201s] reading manifest file 'vier_gewinnt.egg-info/SOURCES.txt'
+[1.201s] writing manifest file 'vier_gewinnt.egg-info/SOURCES.txt'
+[1.218s] [ 96%] Built target ament_cmake_python_build_vier_gewinnt_egg
+[1.319s] [01m[K/home/parallels/prog/ros2_4gewinnt/vier_gewinnt/src/turtlesim.cpp:34:10:[m[K [01;31m[Kfatal error: [m[Kturtlesim/turtle_frame.h: Datei oder Verzeichnis nicht gefunden
+[1.319s]    34 | #include [01;31m[K"turtlesim/turtle_frame.h"[m[K
+[1.319s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.319s] compilation terminated.
+[1.322s] gmake[2]: *** [CMakeFiles/vier_gewinnt_node.dir/build.make:80: CMakeFiles/vier_gewinnt_node.dir/src/turtlesim.cpp.o] Fehler 1
+[1.322s] gmake[1]: *** [CMakeFiles/Makefile2:595: CMakeFiles/vier_gewinnt_node.dir/all] Fehler 2
+[1.322s] gmake: *** [Makefile:146: all] Fehler 2
+[1.324s] Invoked command in '/home/parallels/prog/ros2_4gewinnt/build/vier_gewinnt' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/parallels/prog/ros2_4gewinnt/build/vier_gewinnt -- -j4 -l4

@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/vier_gewinnt__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vier_gewinnt/action/detail/dds_fastrtps/rotate_absolute__type_support.cpp.o"
+  "CMakeFiles/vier_gewinnt__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vier_gewinnt/action/detail/dds_fastrtps/rotate_absolute__type_support.cpp.o.d"
+  "CMakeFiles/vier_gewinnt__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vier_gewinnt/msg/detail/dds_fastrtps/color__type_support.cpp.o"
+  "CMakeFiles/vier_gewinnt__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vier_gewinnt/msg/detail/dds_fastrtps/color__type_support.cpp.o.d"
+  "CMakeFiles/vier_gewinnt__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vier_gewinnt/msg/detail/dds_fastrtps/pose__type_support.cpp.o"
+  "CMakeFiles/vier_gewinnt__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vier_gewinnt/msg/detail/dds_fastrtps/pose__type_support.cpp.o.d"
+  "CMakeFiles/vier_gewinnt__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vier_gewinnt/srv/detail/dds_fastrtps/kill__type_support.cpp.o"
+  "CMakeFiles/vier_gewinnt__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vier_gewinnt/srv/detail/dds_fastrtps/kill__type_support.cpp.o.d"
+  "CMakeFiles/vier_gewinnt__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vier_gewinnt/srv/detail/dds_fastrtps/set_pen__type_support.cpp.o"
+  "CMakeFiles/vier_gewinnt__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vier_gewinnt/srv/detail/dds_fastrtps/set_pen__type_support.cpp.o.d"
+  "CMakeFiles/vier_gewinnt__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vier_gewinnt/srv/detail/dds_fastrtps/spawn__type_support.cpp.o"
+  "CMakeFiles/vier_gewinnt__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vier_gewinnt/srv/detail/dds_fastrtps/spawn__type_support.cpp.o.d"
+  "CMakeFiles/vier_gewinnt__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vier_gewinnt/srv/detail/dds_fastrtps/teleport_absolute__type_support.cpp.o"
+  "CMakeFiles/vier_gewinnt__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vier_gewinnt/srv/detail/dds_fastrtps/teleport_absolute__type_support.cpp.o.d"
+  "CMakeFiles/vier_gewinnt__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vier_gewinnt/srv/detail/dds_fastrtps/teleport_relative__type_support.cpp.o"
+  "CMakeFiles/vier_gewinnt__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vier_gewinnt/srv/detail/dds_fastrtps/teleport_relative__type_support.cpp.o.d"
+  "libvier_gewinnt__rosidl_typesupport_fastrtps_cpp.pdb"
+  "libvier_gewinnt__rosidl_typesupport_fastrtps_cpp.so"
+  "rosidl_typesupport_fastrtps_cpp/vier_gewinnt/action/detail/dds_fastrtps/rotate_absolute__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/vier_gewinnt/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/vier_gewinnt/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/vier_gewinnt/msg/detail/dds_fastrtps/color__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/vier_gewinnt/msg/detail/dds_fastrtps/pose__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/vier_gewinnt/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/vier_gewinnt/srv/detail/dds_fastrtps/kill__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/vier_gewinnt/srv/detail/dds_fastrtps/set_pen__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/vier_gewinnt/srv/detail/dds_fastrtps/spawn__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/vier_gewinnt/srv/detail/dds_fastrtps/teleport_absolute__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/vier_gewinnt/srv/detail/dds_fastrtps/teleport_relative__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/vier_gewinnt/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/vier_gewinnt/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/vier_gewinnt/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/vier_gewinnt/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/vier_gewinnt/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/vier_gewinnt__rosidl_typesupport_fastrtps_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
