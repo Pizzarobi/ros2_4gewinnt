@@ -22,7 +22,7 @@ find_package(std_srvs REQUIRED)
 
 
 include_directories(include ${Qt5Widgets_INCLUDE_DIRS})
-include_directories(include /home/parallels/prog/ros2_4gewinnt)
+include_directories(include /home/uli/repo/ros2_4gewinnt)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "action/RotateAbsolute.action"
@@ -54,11 +54,21 @@ target_link_libraries(vier_gewinnt_node Qt5::Widgets)
 ament_target_dependencies(vier_gewinnt_node ${dependencies})
 target_link_libraries(vier_gewinnt_node "${cpp_typesupport_target}")
 
+add_executable(mv src/mv.cpp)
+ament_target_dependencies(mv ${dependencies})
+target_link_libraries(mv "${cpp_typesupport_target}")
+
+add_executable(player src/publisher_member_function.cpp)
+ament_target_dependencies(player rclcpp std_msgs)
+
+add_executable(listener src/subscriber_member_function.cpp)
+ament_target_dependencies(listener rclcpp std_msgs ${dependencies})
+# target_link_libraries(listener "${cpp_typesupport_target}")
 
 add_executable(init src/init.cpp)
 
 install(TARGETS
-  init vier_gewinnt_node
+  init vier_gewinnt_node player listener  mv
   DESTINATION lib/${PROJECT_NAME})
   
   

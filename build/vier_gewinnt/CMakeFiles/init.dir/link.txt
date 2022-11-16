@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/init.dir/src/init.cpp.o -o init 

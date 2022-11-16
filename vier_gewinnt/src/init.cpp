@@ -25,6 +25,7 @@ int main(){
 	createGridTurtles();
 	killTurtles("x",7);
 	killTurtles("y",6);
+	spawnTurtle("5.0","9.0","0.0","controller"); //to_string(M_PI/2+M_PI)
 
 }
 

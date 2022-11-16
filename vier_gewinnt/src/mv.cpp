@@ -46,7 +46,7 @@ public:
 
     // Move to the STARTING-POINT then to the square to mark them with the turtle pen
     // !!! DEFINES !!!
-    bool markSquare(_Float32 x, _Float32 y)
+    bool markSquare(_Float32 x, _Float32 y, int player)
     {
         
         goDirectToSquareCent(START_X, START_Y); // Starting Point
@@ -62,11 +62,22 @@ public:
         std::this_thread::sleep_for(std::chrono::milliseconds(1000));
 
         // @Robert  hier set pen AN
+        int r = 0;
+        int g = 0;
+        if(player == 1)
+            r = 200;
+        else
+            g = 200;
+
+        std::string caller = "ros2 service call /controller/set_pen vier_gewinnt/srv/SetPen \"{r: "+std::to_string(r)+", g: "+std::to_string(g)+", b: 0, width: 40}\"";
+        system(caller.c_str());
 
         goDirectToSquare(x, y);      // Draw a line down
         std::this_thread::sleep_for(std::chrono::milliseconds(1000));
 
         // @Robert  hier set pen AUS
+        caller = "ros2 service call /controller/set_pen vier_gewinnt/srv/SetPen \"{r: "+std::to_string(r)+", g: "+std::to_string(g)+", b: 0, width: 0}\"";
+        system(caller.c_str());
 
         goDirectToSquareCent(START_X, START_Y); // Back to start
         
@@ -104,7 +115,7 @@ public:
     {
         _Float32 sx, sy;
         sx = 2.75 + ((x-1) * 1.5);
-        sy = 1.50 + ((y-1) * 1.5);
+        sy = 1.75 + ((y-1) * 1.5);
 
         mtx.lock();
         geometry_msgs::msg::Twist twist;
@@ -132,7 +143,7 @@ public:
     {
         _Float32 sx, sy;
         sx = 2.75 + ((x-1) * 1.5);
-        sy = 1.00 + ((y-1) * 1.5);
+        sy = 1.25 + ((y-1) * 1.5);
 
         mtx.lock();
         geometry_msgs::msg::Twist twist;
@@ -210,9 +221,10 @@ public:
 
     void stop_handler()
     {
-        std::cout << "Exit with ctrl + c" << std::endl;
+        //std::cout << "Exit with ctrl + c" << std::endl;
         mvT.join();
         spinT.join();
+        //rclcpp::shutdown();
     }
 
 private:
@@ -252,11 +264,15 @@ int main(int argc, char *argv[])
     char c;
     rclcpp::init(argc, argv);
 
-    --EINE TURTLE MIT DEM NAMEN "turtle1" MUSS GESPAWNT WERDEN
-    -- sonst hängt der mv code in einer ununterbrechbaren dauerschleife haha
-    -- daher blocke ich hiermit den compiler :-)
+    // EINE TURTLE MIT DEM NAMEN "turtle1" MUSS GESPAWNT WERDEN
+    // sonst hängt der mv code in einer ununterbrechbaren dauerschleife haha
+    // daher blocke ich hiermit den compiler :-)
 
-    TurtleMV turtle("turtle1");     // Turtle Move-Object
+    TurtleMV turtle("controller");     // Turtle Move-Object
+
+    std::string caller = "ros2 service call /controller/set_pen vier_gewinnt/srv/SetPen \"{r: 0, g: 0, b: 0, width: 0}\"";
+    system(caller.c_str());
+    std::cout<< "test\n";
 
     turtle.goDirectToSquare(START_X, START_Y);      // Start
     std::cout << "\033[2J\033[1;1H";
@@ -267,27 +283,27 @@ int main(int argc, char *argv[])
     
 
     // Paar Punkte zum Testen
-    turtle.markSquare(1,3);
+    turtle.markSquare(1,3,1);
     std::cout << "\033[2J\033[1;1H";
     std::cout << "Press any key..."<< std::endl;
     while (std::cin.get(c) && c != '\n');
 
-    turtle.markSquare(4,4);
+    turtle.markSquare(4,4,2);
     std::cout << "\033[2J\033[1;1H";
     std::cout << "Press any key..."<< std::endl;
     while (std::cin.get(c) && c != '\n');
 
-    turtle.markSquare(2,1);
+    turtle.markSquare(2,1,1);
     std::cout << "\033[2J\033[1;1H";
     std::cout << "Press any key..."<< std::endl;
     while (std::cin.get(c) && c != '\n');
 
-    turtle.markSquare(6,5);
+    turtle.markSquare(6,5,2);
     std::cout << "\033[2J\033[1;1H";
     std::cout << "Press any key..."<< std::endl;
     while (std::cin.get(c) && c != '\n');
 
-    turtle.markSquare(3,2);
+    turtle.markSquare(3,2,1);
     std::cout << "\033[2J\033[1;1H";
     std::cout << "Press any key..."<< std::endl;
     while (std::cin.get(c) && c != '\n');

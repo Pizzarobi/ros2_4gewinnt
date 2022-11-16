@@ -1,5 +1,0 @@
-gmake[2]: *** Keine Regel vorhanden, um das Ziel „/home/parallels/prog/ros2_4gewinnt/vier_gewinnt/include/turtlesim/turtle_frame.h“, 
-  benötigt von „include/turtlesim/moc_turtle_frame.cpp“, zu erstellen.  Schluss.
-gmake[1]: *** [CMakeFiles/Makefile2:594: CMakeFiles/vier_gewinnt_node.dir/all] Fehler 2
-gmake[1]: *** Auf noch nicht beendete Prozesse wird gewartet …
-gmake: *** [Makefile:146: all] Fehler 2

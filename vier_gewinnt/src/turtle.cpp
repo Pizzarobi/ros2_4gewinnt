@@ -116,6 +116,8 @@ bool Turtle::setPenCallback(const vier_gewinnt::srv::SetPen::Request::SharedPtr 
   if (req->width != 0)
   {
     pen.setWidth(req->width);
+  }else if(req->width == 0){
+    pen_on_ = false;
   }
 
   pen_ = pen;

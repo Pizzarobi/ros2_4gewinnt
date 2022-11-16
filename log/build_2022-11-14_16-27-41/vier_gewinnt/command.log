@@ -1,4 +1,0 @@
-Invoking command in '/home/parallels/prog/ros2_4gewinnt/build/vier_gewinnt': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/parallels/prog/ros2_4gewinnt/build/vier_gewinnt -- -j4 -l4
-Invoked command in '/home/parallels/prog/ros2_4gewinnt/build/vier_gewinnt' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/parallels/prog/ros2_4gewinnt/build/vier_gewinnt -- -j4 -l4
-Invoking command in '/home/parallels/prog/ros2_4gewinnt/build/vier_gewinnt': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/parallels/prog/ros2_4gewinnt/build/vier_gewinnt
-Invoked command in '/home/parallels/prog/ros2_4gewinnt/build/vier_gewinnt' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/parallels/prog/ros2_4gewinnt/build/vier_gewinnt
