@@ -1,3 +1,0 @@
-add_executable(mv src/mv.cpp)          
-ament_target_dependencies(mv ${dependencies})
-target_link_libraries(mv "${cpp_typesupport_target}")
