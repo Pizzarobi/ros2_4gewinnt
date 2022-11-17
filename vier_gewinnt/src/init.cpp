@@ -14,7 +14,6 @@ void waitFor(int i);
 
 // theta 0 = nach rechts
 
-
 int main(){
 	//clearScreen();
 	//spawnTurtle("1.0","1.0","0.3","test");
@@ -64,7 +63,7 @@ void killTurtles(string name,int amount){
                 	string caller = "ros2 service call /kill vier_gewinnt/srv/Kill \"{name: '"+name+to_string(i+1)+"'}\"";
                 	system(caller.c_str());
 		}
-        }
+    }
 }
 
 void clearScreen(){

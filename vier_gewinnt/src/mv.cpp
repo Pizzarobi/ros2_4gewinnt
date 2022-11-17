@@ -61,7 +61,7 @@ public:
         goDirectToSquareTop(x, y);     // Then move down :-) -> To the top of the square
         std::this_thread::sleep_for(std::chrono::milliseconds(1000));
 
-        // @Robert  hier set pen AN
+        // SetPen on
         int r = 0;
         int g = 0;
         if(player == 1)
@@ -75,7 +75,7 @@ public:
         goDirectToSquare(x, y);      // Draw a line down
         std::this_thread::sleep_for(std::chrono::milliseconds(1000));
 
-        // @Robert  hier set pen AUS
+        // SetPen off
         caller = "ros2 service call /controller/set_pen vier_gewinnt/srv/SetPen \"{r: "+std::to_string(r)+", g: "+std::to_string(g)+", b: 0, width: 0}\"";
         system(caller.c_str());
 
@@ -115,7 +115,7 @@ public:
     {
         _Float32 sx, sy;
         sx = 2.75 + ((x-1) * 1.5);
-        sy = 1.75 + ((y-1) * 1.5);
+        sy = 1.50 + ((y-1) * 1.5);
 
         mtx.lock();
         geometry_msgs::msg::Twist twist;
@@ -143,7 +143,7 @@ public:
     {
         _Float32 sx, sy;
         sx = 2.75 + ((x-1) * 1.5);
-        sy = 1.25 + ((y-1) * 1.5);
+        sy = 1.00 + ((y-1) * 1.5);
 
         mtx.lock();
         geometry_msgs::msg::Twist twist;
@@ -270,16 +270,17 @@ int main(int argc, char *argv[])
 
     TurtleMV turtle("controller");     // Turtle Move-Object
 
+    // SetPen off
     std::string caller = "ros2 service call /controller/set_pen vier_gewinnt/srv/SetPen \"{r: 0, g: 0, b: 0, width: 0}\"";
     system(caller.c_str());
     std::cout<< "test\n";
 
     turtle.goDirectToSquare(START_X, START_Y);      // Start
+
+    // Für Demo. Turtle nur nach Tastendruck bewegen
     std::cout << "\033[2J\033[1;1H";
     std::cout << "Press any key..."<< std::endl;
-    while (std::cin.get(c) && c != '\n');           // @Robert das ist drin damit die Turtle nicht mit move-
-                                                    // Anfragen zugemüllt wird... Weil sonst buggt das rum aber i mean wir 
-                                                    // haben ja ausgemacht, dass man was sehen soll xD
+    while (std::cin.get(c) && c != '\n');           
     
 
     // Paar Punkte zum Testen

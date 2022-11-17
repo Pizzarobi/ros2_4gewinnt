@@ -61,7 +61,7 @@ private:
   {
     std::string message = msg.data.c_str();
     split_string(message);
-    RCLCPP_INFO(this->get_logger(), "Player:%d, Column%d", pos[0], pos[1]);
+    //RCLCPP_INFO(this->get_logger(), "Player:%d, Column%d", pos[0], pos[1]);
   }
   rclcpp::Subscription<std_msgs::msg::String>::SharedPtr subscription_;
 };
@@ -69,6 +69,7 @@ private:
 int main(int argc, char * argv[])
 {
   rclcpp::init(argc, argv);
+  std::cout << "Spiel bereit! Warte auf Spielerinput" << std::endl;
 
   // Create TurtleMV
   rclcpp::spin(std::make_shared<MinimalSubscriber>());
@@ -78,11 +79,9 @@ int main(int argc, char * argv[])
 
 void split_string(std::string input)
 {
-  //int count = 0;
   std::string letter = "";
-  std::cout << input << std::endl;
 
-  pos[0] = (int)(input[0])-48;
+  pos[0] = (int)(input[0])-48; // -48 da (int) den Ascii wert castet
   pos[1] = (int)(input[2])-48;
 
   // Spielmove wird berechnet und validiert
@@ -101,16 +100,17 @@ void playerMove(int player, int column){
 
     // check for correct player
     if(player != playerTurn){
+        std::cout << "Spieler " << playerTurn << " ist dran!" <<std::endl;
         return;
     }
-    column--; // Player eingabe ist 1-7. Arrays sind 0-6
+    column--; // Player eingabe ist zwischen 1 und 7. Array ist zw. 0 und 6
     
     //checks if valid move
     int row = getLowest(column);
     if(row>=7){
         // invalid move
         // dont change playerTurn
-        std::cout << "ungueltiger move von Spieler " << player << std::endl;
+        std::cout << "Ungueltiger Zug von Spieler " << player << std::endl;
         return;
     }
     // Valid Move
@@ -126,10 +126,14 @@ void playerMove(int player, int column){
 }
 
 void drawCoin(int row, int column, int player){
-    //drawAufruf
+    // drawAufruf
     // TurtleMV turtle("controller");
     // turtle.markSquare(row,column);
     // turtle.stop_handler();
+
+    // clear Terminal window
+    std::cout << "\033[2J\033[1;1H";
+    printf("Zug von Spieler %d!\n",player);
     printArray();
 }
 
@@ -146,13 +150,13 @@ int getLowest(int column){
 }
 
 void printArray(){
-  printf("CurrentPlayingField!\n\n");
+  // outer loop for row
   for(int i=G_HEIGHT-1; i>=0; i--) {
       // inner loop for column
       for(int j=0; j<G_WIDTH; j++) {
         printf("%d ", field[i][j]);
       }
-    printf("\n"); // new line
+    printf("\n");
   }
   printf("\n\n");
 }
