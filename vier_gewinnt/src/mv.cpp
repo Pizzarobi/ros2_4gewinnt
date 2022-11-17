@@ -115,7 +115,7 @@ public:
     {
         _Float32 sx, sy;
         sx = 2.75 + ((x-1) * 1.5);
-        sy = 1.50 + ((y-1) * 1.5);
+        sy = 2.00 + ((y-1) * 1.5);
 
         mtx.lock();
         geometry_msgs::msg::Twist twist;
@@ -143,7 +143,7 @@ public:
     {
         _Float32 sx, sy;
         sx = 2.75 + ((x-1) * 1.5);
-        sy = 1.00 + ((y-1) * 1.5);
+        sy = 1.5 + ((y-1) * 1.5);
 
         mtx.lock();
         geometry_msgs::msg::Twist twist;
@@ -221,10 +221,10 @@ public:
 
     void stop_handler()
     {
-        //std::cout << "Exit with ctrl + c" << std::endl;
+        std::cout << "Exit with ctrl + c" << std::endl;
         mvT.join();
         spinT.join();
-        //rclcpp::shutdown();
+
     }
 
 private:
@@ -284,12 +284,12 @@ int main(int argc, char *argv[])
     
 
     // Paar Punkte zum Testen
-    turtle.markSquare(1,3,1);
+    turtle.markSquare(3,1,1);
     std::cout << "\033[2J\033[1;1H";
     std::cout << "Press any key..."<< std::endl;
     while (std::cin.get(c) && c != '\n');
 
-    turtle.markSquare(4,4,2);
+    turtle.markSquare(3,2,2);
     std::cout << "\033[2J\033[1;1H";
     std::cout << "Press any key..."<< std::endl;
     while (std::cin.get(c) && c != '\n');
@@ -299,12 +299,22 @@ int main(int argc, char *argv[])
     std::cout << "Press any key..."<< std::endl;
     while (std::cin.get(c) && c != '\n');
 
-    turtle.markSquare(6,5,2);
+    turtle.markSquare(4,1,2);
     std::cout << "\033[2J\033[1;1H";
     std::cout << "Press any key..."<< std::endl;
     while (std::cin.get(c) && c != '\n');
 
-    turtle.markSquare(3,2,1);
+    turtle.markSquare(4,2,1);
+    std::cout << "\033[2J\033[1;1H";
+    std::cout << "Press any key..."<< std::endl;
+    while (std::cin.get(c) && c != '\n');
+
+    turtle.markSquare(4,3,2);
+    std::cout << "\033[2J\033[1;1H";
+    std::cout << "Press any key..."<< std::endl;
+    while (std::cin.get(c) && c != '\n');
+
+    turtle.markSquare(3,3,1);
     std::cout << "\033[2J\033[1;1H";
     std::cout << "Press any key..."<< std::endl;
     while (std::cin.get(c) && c != '\n');
