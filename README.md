@@ -2,6 +2,8 @@
 ### Jakob Spies, Noah Gerstlauer, Petros Fotikas, Robert Kalmar
 ------------
 ## Usage:
+`$ colcon build`
+
 `$ . install/local_setup.bash`
 
 `$ ros2 run vier_gewinnt vier_gewinnt_node` startet das graphische Spielfeld
