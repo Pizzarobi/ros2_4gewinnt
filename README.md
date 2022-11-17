@@ -1,4 +1,4 @@
-# Vier Gewinnt auf basis von ROS2
+# Vier Gewinnt auf Basis von ROS2 und Turtlesim
 ### Jakob Spies, Noah Gerstlauer, Petros Fotikas, Robert Kalmar
 ------------
 ## Usage:
