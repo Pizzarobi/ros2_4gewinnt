@@ -126,6 +126,8 @@ void playerMove(int player, int column){
 }
 
 void drawCoin(int row, int column, int player){
+    int test = column;
+    test+=row;
     // drawAufruf
     // TurtleMV turtle("controller");
     // turtle.markSquare(row,column);
@@ -154,10 +156,16 @@ void printArray(){
   for(int i=G_HEIGHT-1; i>=0; i--) {
       // inner loop for column
       for(int j=0; j<G_WIDTH; j++) {
-        printf("%d ", field[i][j]);
+	 if(field[i][j]==0){
+	   printf("  ");
+	 }else{
+	   printf("%d ", field[i][j]);
+	 }
       }
     printf("\n");
   }
+  printf("-------------\n");
+  printf("1 2 3 4 5 6 7");
   printf("\n\n");
 }
 
